@@ -2,7 +2,7 @@
 
 * Unit 4 Game
 
-![HOME.PPG](https://img.fireden.net/v/image/1489/34/1489349737830.png)
+![HOME.PNG](https://img.fireden.net/v/image/1489/34/1489349737830.png)
 
 ### Instructions
 
