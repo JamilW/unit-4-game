@@ -14,10 +14,9 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-<!--Links for Javascript and jQuery-->    
+<!--Links for Javascript-->    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/javascript/game.js"></script>
-
+    
 <!--Google styling-->    
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
@@ -45,16 +44,16 @@
 <!--Random number and wins/losses columns-->
     <div class="container">
             <div class="row">
-              <div class="col-8"></div>
+              <div class="col-8"><p id="random-number"></p></div>
               <div class="col-4">
-                  <p>Wins: </p>
+                  <p id="wins">Wins: </p>
                   <br>
-                  <p>Losses: </p>
+                  <p id="losses">Losses: </p>
               </div>
             </div>
     </div>
     
-    <!--Crystal images-->
+<!--Crystal images-->
     <div class="container">
             <div class="row">
               <div class="col"><div class="img-fluid"><img src="assets/images/rsz_infinity-war-infinity-stone-infinity-gem-marvel-mind-gem-min.jpg"></div></div>
@@ -65,7 +64,7 @@
     </div>        
     <br>
 
-    <!--Total score-->        
+<!--Total score-->        
     <div class="container">
             <div class="row">
                 <div class="col-8"><p>Your total score is</p></div>
@@ -73,6 +72,9 @@
                 </div>
             </div>
     </div>    
-          
+    
+<!--Link to javascript-->
+    <script src="assets/javascript/game.js"></script>
+
 </body>
 </html>
