@@ -8,7 +8,7 @@ body    {
 }    
 #container1-fluid  {
     color: white;
-    background: #db8f2c;
+    background: #008080;
     text-align: center;
     font-size: 40px;
     font-weight: 700;
@@ -39,10 +39,11 @@ body    {
     font-family: 'Assistant', sans-serif;
     font-weight: 700;
     font-size: 32px;
+    height: 20vh;
     text-align: center;
     margin-bottom: 20px;
     padding-top: 40px;
-    border: rgb(66, 8, 66) solid 3px;
+    border: rgb(66, 8, 66) solid 1px;
 }
 .col-4  {
     color: rgb(66, 8, 66);
@@ -54,7 +55,7 @@ body    {
     font-family: 'Assistant', sans-serif;
     margin-bottom: 20px;
     text-align: center;
-    border: rgb(66, 8, 66) dashed 3px;
+    border: rgb(66, 8, 66) solid 1px;
     border-left: rgb(66, 8, 66) solid 1px;
 }
 #total-score    {
